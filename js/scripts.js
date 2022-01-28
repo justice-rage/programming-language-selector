@@ -8,16 +8,25 @@ $(document).ready(function(event) {
     // unhides ruby language result
     if (identifyWith === "precious-gems" && favoriteColor === "red") {
       $('#ruby').show();
+      $("#python").hide();
+      $("#javascript").hide();
     } 
     // unhides python language result
     else if (identifyWith === "snakes" && favoriteColor === "green") {
       $('#python').show();
+      $("#ruby").hide();
+      $("#javascript").hide();
     } 
     // unhides javascript language
     else if (identifyWith === "aesthetics" && favoriteColor === "yellow") {
       $('#javascript').show();
+      $("#python").hide();
+      $("#ruby").hide();
     } else {
       $('#javascript').show();
+      $("#python").hide();
+      $("#ruby").hide();
     }
+    event.preventDefault();
   });
 });
