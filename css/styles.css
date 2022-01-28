@@ -18,4 +18,20 @@ h1 {
   font-weight: bold;
 }
 
+.result-description {
+  color: black;
+}
+
 /* IDs */
+
+#ruby {
+  color: red;
+}
+
+#python {
+  color: green;
+}
+
+#javascript {
+  color: yellow;
+}
