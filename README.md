@@ -16,7 +16,7 @@ _Webpage that returns suggested programming languages to explore based off user 
 
 ## Description
 
-_This is a Programming Language Suggester webpage that asks individuals a series of questions about themselves and provides a programming language suggestion based on their answers._
+_This is my second independent project created during my time at the Epicodus bootcamp. The project is a Programming Language Suggester webpage that asks individuals a series of questions about themselves and provides a programming language they should explore based on their answers._
 
 ## Setup/Installation Requirements
 
