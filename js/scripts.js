@@ -17,7 +17,7 @@ $(document).ready(function(event) {
       $("#ruby").hide();
       $("#javascript").hide();
     } 
-    // unhides javascript language
+    // unhides javascript language result
     else if (identifyWith === "aesthetics" && favoriteColor === "yellow") {
       $('#javascript').show();
       $("#python").hide();
