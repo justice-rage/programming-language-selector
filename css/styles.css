@@ -6,6 +6,10 @@ body {
   background-color: whitesmoke;
 }
 
+.container {
+  display: flex;
+}
+
 h1 {
   text-align: center;
 }
