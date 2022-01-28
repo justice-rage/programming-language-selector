@@ -15,52 +15,65 @@
 
       <p>Answer the following questions to be suggested a language to explore based off your interests:</p>
       <!-- language selector questions -->
-      <form id="quiz">
-        <div> 
-          <!-- question 1 -->
-          <label for="identify-with">Out of the given selection, choose what you identify with the most:</label>
-          <select id="identify-with">
-            <option value="precious-gems">Precious Gems</option>
-            <option value="snakes">Snakes</option>
-            <option value="aesthetics">Aesthetics</option>
-          </select>
-        </div>
         <div>
-          <!-- question 2 -->
-          <label for="favorite-color">Select your favorite color:</label>
-          <select id="favorite-color">
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="yellow">Yellow</option>
-          </select>
-        </div>
-        <div>
-          <!-- question 3 -->
-          <label for="preferred-organization">Preferred organization:</label>
-          <select id="preferred-organization">
-            <option value="airbnb">Airbnb</option>
-            <option value="youtube">YouTube</option>
-            <option value="twitter">Twitter</option>
-          </select>
-        </div>
-        <div>
-          <!-- question 4 -->
-          <label for="born">Date of birth:</label>
-          <input id="born" class="form-control" type="date">
-        </div>
-        <div>
-          <!-- question 5 -->
-          <label for="pizza-preference">Pizza Preference:</label>
-          <select id="pizza-preferencer">
-            <option value="with-pineapple">With Pineapple</option>
-            <option value="without-pineapple">No Pineapple</option>
-          </select>
-        </div>
+          <form id="quiz">
+            <ol>
+              <li>
+                <div>
+                <!-- question 1 -->
+                  <label for="identify-with">Out of the given selection, choose what you identify with the most:</label>
+                  <select id="identify-with">
+                    <option value="precious-gems">Precious Gems</option>
+                    <option value="snakes">Snakes</option>
+                    <option value="aesthetics">Aesthetics</option>
+                  </select>
+                </div>
+              </li>
+              <li>
+                <div>
+                <!-- question 2 -->
+                  <label for="favorite-color">Select your favorite color:</label>
+                  <select id="favorite-color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                  </select>
+                </div>
+              </li>
+              <li>
+                <div>
+                <!-- question 3 -->
+                  <label for="preferred-organization">Preferred organization:</label>
+                  <select id="preferred-organization">
+                    <option value="airbnb">Airbnb</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="twitter">Twitter</option>
+                  </select>
+                </div>
+              </li>
+              <li>
+                <div>
+                <!-- question 4 -->
+                  <label for="born">Date of birth:</label>
+                  <input id="born" class="form-control" type="date">
+                </div>
+              </li>
+              <li>
+                <div>
+                <!-- question 5 -->
+                  <label for="pizza-preference">Pizza Preference:</label>
+                  <select id="pizza-preferencer">
+                    <option value="with-pineapple">With Pineapple</option>
+                    <option value="without-pineapple">No Pineapple</option>
+                  </select>
+                </div>
+              </li>
+            </ol>
+          </form>
         <div>
           <!-- submit quiz button -->
           <button type="submit" class="btn btn-success">Submit</button>
         </div>
-      </form>
 
       <!-- language results -->
       <div id="ruby" class="hidden">
