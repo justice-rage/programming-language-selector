@@ -2,7 +2,9 @@
 
 #### By _**Justice Douglas**_
 
-#### _Webpage that returns suggested programming languages to explore based off user selected survey answers_
+#### Application Description
+
+_Webpage that returns suggested programming languages to explore based off user selected survey answers_
 
 ## Technologies Used
 
