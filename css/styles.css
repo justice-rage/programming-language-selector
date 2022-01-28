@@ -1,6 +1,4 @@
-.hidden {
-  display: none;
-}
+/* elements */
 
 body {
   background-color: whitesmoke;
@@ -8,6 +6,12 @@ body {
 
 h1 {
   text-align: center;
+}
+
+/* classes */
+
+.hidden {
+  display: none;
 }
 
 .instructions {
